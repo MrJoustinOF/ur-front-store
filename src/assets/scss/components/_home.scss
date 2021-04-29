@@ -1,0 +1,36 @@
+.home {
+    background: $principal;
+    color: $blanco;
+}
+
+.title {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.homeImg {
+    width: 75%;
+    height: 100%;
+}
+
+.cardsSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+    padding: {
+        left: 20rem;
+        right: 20rem;
+    };
+    margin: {
+        top: 2rem;
+        bottom: 4rem;
+    };
+} 
+
+.cardStore {
+    text-align: center;
+    border: solid 0.2rem black;
+    font-size: 3rem;
+    padding: 1rem;
+}

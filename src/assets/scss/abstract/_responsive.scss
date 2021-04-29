@@ -1,0 +1,41 @@
+@media (min-width: 280px) {
+    .cardsSection {
+        display: block;
+        padding: 0;
+    }
+
+    .about {
+        padding: {
+            top: 2rem;
+            left: 2rem;
+            right: 2rem;
+        };
+    }
+
+    .about h2 {
+        font-size: 4rem;
+    }
+
+    .about p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .cardsSection {
+        display: grid;
+        padding: {
+            left: 20rem;
+            right: 20rem;
+        };
+    }
+
+    .about {
+        padding: {
+            top: 2rem;
+            left: 10rem;
+            right: 10rem;
+        };
+    }
+    
+}
